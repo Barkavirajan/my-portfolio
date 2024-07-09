@@ -1,25 +1,43 @@
-import websiteImg1 from '../assets/ecommerce-websites.jpg';
+
 import websiteImg2 from '../assets/food-ecommerce.jpg';
-import websiteImg3 from '../assets/website-blog.jpg';
+
+import websiteImg3 from '../assets/weather.jpg';
+import websiteImg4 from '../assets/calculator.jpg';
+import websiteImg5 from '../assets/to-do.jpg';
+import websiteImg6 from '../assets/connect.jpeg';
 
 export default function Projects() {
 
     const config = {
         projects : [
-            {
-                image: websiteImg1,
-                description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: ' '
-            },
+            
             {
                 image: websiteImg2,
                 description: 'Food Ecommerce website like Swiggy, Built with HTML, CSS, JAVASCRIPT',
                 link: 'https://github.com/Barkavirajan/Restaurant'
             },
+          
+            {
+                image: websiteImg4,
+                description: 'Web-based applications for a calculator implemented with HTML, css & Javascript',
+                link: 'https://github.com/Barkavirajan/Calculator'
+            },
+            {
+                image: websiteImg5,
+                description: 'Web-based applications for a to-do list implemented with HTML, css & Javascript',
+                link: 'https://github.com/Barkavirajan/TO-DO'
+
+            },
+            {
+                image: websiteImg6,
+                description: 'Web-based applications for a connect implemented with HTML, css & Javascript',
+                link: 'https://github.com/Barkavirajan/Connect'
+
+            },
             {
                 image: websiteImg3,
-                description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: ' '
+                description: 'An Arduino-based weather station utilizing the DHT11 temperature and humidity sensor for precise environmental monitoring.',
+                link: 'https://github.com/Barkavirajan/Arduino-Weather-Station-and-theDHT11-Temperature-Humidity-sensor'
             }
         ]
     }
@@ -28,7 +46,7 @@ export default function Projects() {
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
                 <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">Projects</h1>
-                <p>These are some of my best projects. I have built these with React, MERN and vanilla CSS. Check them out.</p>
+                <p>These are some of my best projects. Check them out.</p>
             </div>
         </div>
         <div className="w-full">
